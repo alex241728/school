@@ -1,0 +1,10 @@
+.school
+{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    display: block;
+    left: 18.5%;
+    top: 190px;
+    z-index: 2;
+}

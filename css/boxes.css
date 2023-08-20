@@ -1,0 +1,2883 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: 2000px;
+    position: absolute;
+    left: 10%;
+    top: 340px;
+}
+
+.box-1 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-1 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-1 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 315px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-1 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-1 .rectangle-3 
+{
+    display: none;
+}
+
+.box-1 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-1 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-1 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-2 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 0px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-2 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 0px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-2 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 315px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-2 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-2 .rectangle-3 
+{
+    display: none;
+}
+
+.box-2 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-2 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-2 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-3 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 0px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-3 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 0px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-3 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 315px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-3 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-3 .rectangle-3 
+{
+    display: none;
+}
+
+.box-3 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-3 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-3 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-4 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 580px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-4 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 580px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-4 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 895px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-4 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 580px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-4 .rectangle-3 
+{
+    display: none;
+}
+
+.box-4 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-4 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-4 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-5 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 580px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-5 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 580px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-5 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 895px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-5 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 580px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-5 .rectangle-3 
+{
+    display: none;
+}
+
+.box-5 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-5 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-5 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-6 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 580px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-6 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 580px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-6 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 895px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-6 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 580px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-6 .rectangle-3 
+{
+    display: none;
+}
+
+.box-6 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-6 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-6 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-7 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 1160px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-7 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 1160px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-7 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 1475px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-7 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 1160px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-7 .rectangle-3 
+{
+    display: none;
+}
+
+.box-7 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-7 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-7 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-8 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1160px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-8 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1160px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-8 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1475px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-8 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1160px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-8 .rectangle-3 
+{
+    display: none;
+}
+
+.box-8 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-8 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-8 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-9 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1160px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-9 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1160px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-9 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1475px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-9 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1160px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-9 .rectangle-3 
+{
+    display: none;
+}
+
+.box-9 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-9 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-9 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-10 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 1740px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-10 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 1740px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-10 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 2055px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-10 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 1740px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-10 .rectangle-3 
+{
+    display: none;
+}
+
+.box-10 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-10 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-10 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-11 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1740px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-11 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1740px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-11 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2055px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-11 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 1740px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-11 .rectangle-3 
+{
+    display: none;
+}
+
+.box-11 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-11 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-11 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-12 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1740px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-12 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1740px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-12 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2055px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-12 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 1740px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-12 .rectangle-3 
+{
+    display: none;
+}
+
+.box-12 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-12 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-12 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-13 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 2320px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-13 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 2320px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-13 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 2635px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-13 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 2320px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-13 .rectangle-3 
+{
+    display: none;
+}
+
+.box-13 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-13 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-13 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-14 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2320px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-14 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2320px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-14 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2635px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-14 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2320px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-14 .rectangle-3 
+{
+    display: none;
+}
+
+.box-14 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-14 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-14 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-15 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2320px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-15 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2320px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-15 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2635px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-15 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2320px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-15 .rectangle-3 
+{
+    display: none;
+}
+
+.box-15 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-15 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-15 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-16 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 2900px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-16 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 2900px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-16 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 3215px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-16 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 2900px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-16 .rectangle-3 
+{
+    display: none;
+}
+
+.box-16 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-16 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-16 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-17 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2900px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-17 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2900px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-17 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 3215px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-17 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 2900px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-17 .rectangle-3 
+{
+    display: none;
+}
+
+.box-17 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-17 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-17 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-18 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2900px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-18 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2900px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-18 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 3215px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-18 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 2900px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-18 .rectangle-3 
+{
+    display: none;
+}
+
+.box-18 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-18 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-18 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-19 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 3480px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-19 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 3480px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-19 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 3795px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-19 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 3480px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-19 .rectangle-3 
+{
+    display: none;
+}
+
+.box-19 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-19 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-19 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-20 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 3480px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-20 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 3480px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-20 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 3795px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-20 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 3480px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-20 .rectangle-3 
+{
+    display: none;
+}
+
+.box-20 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-20 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-20 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-21 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 3480px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-21 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 3480px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-21 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 3795px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-21 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 3480px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-21 .rectangle-3 
+{
+    display: none;
+}
+
+.box-21 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-21 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-21 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-22 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 4060px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-22 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 4060px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-22 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 4375px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-22 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 4060px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-22 .rectangle-3 
+{
+    display: none;
+}
+
+.box-22 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-22 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-22 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-23 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4060px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-23 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4060px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-23 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4375px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-23 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4060px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-23 .rectangle-3 
+{
+    display: none;
+}
+
+.box-23 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-23 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-23 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-24 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4060px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-24 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4060px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-24 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4375px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-24 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4060px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-24 .rectangle-3 
+{
+    display: none;
+}
+
+.box-24 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-24 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-24 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-25 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 4640px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-25 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 4640px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-25 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 4955px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-25 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 4640px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-25 .rectangle-3 
+{
+    display: none;
+}
+
+.box-25 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-25 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-25 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-26 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4640px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-26 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4640px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-26 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4955px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-26 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 4640px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-26 .rectangle-3 
+{
+    display: none;
+}
+
+.box-26 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-26 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-26 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-27 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4640px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-27 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4640px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-27 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4955px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-27 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 4640px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-27 .rectangle-3 
+{
+    display: none;
+}
+
+.box-27 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-27 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-27 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-28 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 5220px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-28 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 5220px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-28 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 5535px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-28 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 5220px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-28 .rectangle-3 
+{
+    display: none;
+}
+
+.box-28 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-28 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-28 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-29 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5220px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-29 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5220px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-29 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5535px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-29 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5220px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-29 .rectangle-3 
+{
+    display: none;
+}
+
+.box-29 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-29 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-29 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-30 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5220px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-30 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5220px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-30 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5535px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-30 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5220px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-30 .rectangle-3 
+{
+    display: none;
+}
+
+.box-30 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-30 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-30 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-31 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 5800px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-31 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 5800px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-31 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 6115px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-31 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 5800px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-31 .rectangle-3 
+{
+    display: none;
+}
+
+.box-31 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-31 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-31 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-32 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5800px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-32 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5800px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-32 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 6115px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-32 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 5800px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-32 .rectangle-3 
+{
+    display: none;
+}
+
+.box-32 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-32 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-32 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-33 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5800px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-33 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5800px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-33 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 6115px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-33 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 5800px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-33 .rectangle-3 
+{
+    display: none;
+}
+
+.box-33 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-33 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-33 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
